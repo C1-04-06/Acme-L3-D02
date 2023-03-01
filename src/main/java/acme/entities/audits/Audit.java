@@ -6,7 +6,6 @@ import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-import javax.validation.constraints.PositiveOrZero;
 
 import org.hibernate.validator.constraints.Length;
 
@@ -44,11 +43,8 @@ public class Audit extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
-	// TO DO: Work time computed from its activities
-
 	@NotNull
-	@PositiveOrZero
-	protected Mark				mark; // 1.5 will mean 90 min
+	protected Mark				mark;
 
 	// Relationships ----------------------------------------------------------
 
