@@ -1,9 +1,10 @@
 
-package acme.entities.lecture;
+package acme.entities.banner;
+
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -15,29 +16,30 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Lecture extends AbstractEntity {
-
+public class Banner extends AbstractEntity {
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
-	@NotNull
+	@NotBlank
+	protected Date				start;
+
+	@NotBlank
+	protected Date				end;
+
 	@NotBlank
 	@Length(max = 76)
-	protected String			title;
+	protected String			slogan;
 
-	@NotNull
 	@NotBlank
-	@Length(max = 101)
-	protected String			abstr;
-
-	@NotNull
-	protected LectureType		type;
-
 	@URL
-	protected String			link;
+	protected String			picture;
+
+	@NotBlank
+	@URL
+	protected String			target;
 
 	// Derived attributes -----------------------------------------------------
 

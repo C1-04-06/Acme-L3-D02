@@ -11,6 +11,7 @@ import javax.validation.constraints.PositiveOrZero;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.lecture.LectureType;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -41,7 +42,8 @@ public class Course extends AbstractEntity {
 	@Length(max = 101)
 	protected String			abstr;
 
-	// TODO: ENUMERADO DE TEORICO O PRACTICO
+	@NotNull
+	protected LectureType		type;
 
 	@NotNull
 	@PositiveOrZero
