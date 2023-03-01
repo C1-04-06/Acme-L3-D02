@@ -4,9 +4,7 @@ package acme.entities.enrolments;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-import javax.validation.constraints.PositiveOrZero;
 
 import org.hibernate.validator.constraints.Length;
 
@@ -40,14 +38,16 @@ public class Enrolment extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
-	// TO DO: Work time computed from its activities
 
-	@NotNull
-	@PositiveOrZero
-	protected Double			workTime; // 1.5 will mean 90 min
+	public Double getWorkbookTime() {
+		return null;
+	}
 
 	// Relationships ----------------------------------------------------------
 
-	// Relationship with activities and students
+	//	@NotNull
+	//	@Valid
+	//	@ManyToOne(optional = false)
+	//	protected Student student;
 
 }
