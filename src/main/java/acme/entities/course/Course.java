@@ -44,11 +44,14 @@ public class Course extends AbstractEntity {
 	@NotNull
 	protected Nature			courseNature;
 
+	//TODO: Custom constraints
 	@NotNull
 	protected Money				price;
 
 	@URL
 	protected String			link;
+
+	//TODO: courseNature
 
 	// Derived attributes -----------------------------------------------------
 
