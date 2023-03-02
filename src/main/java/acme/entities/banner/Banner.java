@@ -4,7 +4,10 @@ package acme.entities.banner;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -23,14 +26,16 @@ public class Banner extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@NotBlank
-	protected Date				start;
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				startPeriod;
+
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				endPeriod;
 
 	@NotBlank
-	protected Date				end;
-
-	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			slogan;
 
 	@NotBlank
