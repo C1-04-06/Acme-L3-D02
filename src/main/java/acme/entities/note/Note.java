@@ -25,6 +25,7 @@ public class Note extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
+	//Pasado?
 	protected Date				moment;
 
 	@NotBlank
@@ -40,11 +41,16 @@ public class Note extends AbstractEntity {
 	protected String			message;
 
 	@Email
-	//optional
+	//optional?
 	protected String			email;
 
 	@URL
-	//optional
+	//optional?
 	protected String			link;
 
+	// Derived attributes -----------------------------------------------------
+
+	// Relationships ----------------------------------------------------------
+
+	//Principal?
 }
