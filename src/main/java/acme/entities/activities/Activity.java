@@ -47,7 +47,7 @@ public class Activity extends AbstractEntity {
 	protected Date				endPeriod;
 
 	@URL
-	protected String			infoLink;
+	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
 
