@@ -57,6 +57,6 @@ public class Activity extends AbstractEntity {
 	//	@NotNull
 	//	@Valid
 	//	@ManyToOne(optional = false)
-	//	protected Enrolment			enrolment;
+	//	protected Enrolment			workbook;
 
 }
