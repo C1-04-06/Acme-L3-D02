@@ -4,6 +4,8 @@ package acme.entities.sessions;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
@@ -37,10 +39,12 @@ public class PracticumSession extends AbstractEntity {
 	protected String			abstr;
 
 	@NotNull
-	protected Date				start;
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				startPeriod;
 
 	@NotNull
-	protected Date				end;
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				endPeriod;
 
 	@URL
 	protected String			link;
