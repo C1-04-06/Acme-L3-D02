@@ -27,21 +27,21 @@ public class Audit extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Pattern(regexp = "[A-Z]{1,3}[0-9][0-9]{3}")
+	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
 	@NotBlank
 	@Column(unique = true)
 	protected String			code;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			conclusion;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			strongPoints;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			weakPoints;
 
 	// Derived attributes -----------------------------------------------------

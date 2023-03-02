@@ -31,11 +31,11 @@ public class AuditingRecord extends AbstractEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			subject;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			assesment;
 
 	@PastOrPresent
@@ -44,7 +44,6 @@ public class AuditingRecord extends AbstractEntity {
 	protected Date				startPeriod;
 
 	//Custom restriction
-	//@Past?
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date				endPeriod;
