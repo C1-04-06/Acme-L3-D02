@@ -36,30 +36,27 @@ public class Tutorial extends AbstractEntity {
 	// Attributes -------------------------------------------------------------
 	@NotNull
 	@NotBlank
-	@Pattern(regexp = "[A-Z]{1,3}[0-9][0-9]{3}")
+	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
 	@Column(unique = true)
 	protected String			code;
 
 	@NotNull
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			title;
 
 	@NotNull
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			abstr;
 
 	@NotNull
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			goals;
 
-	@NotNull
-	protected Integer			totalTime;
-
 	// Derived attributes -----------------------------------------------------
-
+	//totalTime
 	// Relationships ----------------------------------------------------------
 
 }
