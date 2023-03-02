@@ -1,16 +1,13 @@
 
-package acme.entities.note;
+package acme.entities.activities;
 
 import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.PastOrPresent;
-import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -22,8 +19,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-
-public class Note extends AbstractEntity {
+public class Activity extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
@@ -31,34 +27,35 @@ public class Note extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@PastOrPresent
-	@NotNull
-	protected Date				instationMoment;
-
-	@NotNull
 	@NotBlank
 	@Length(max = 76)
 	protected String			title;
 
-	@NotNull
-	@NotBlank
-	@Pattern(regexp = "〈username〉 - 〈surname, name〉")
-	@Length(max = 76)
-	protected String			autor;
-
-	@NotNull
 	@NotBlank
 	@Length(max = 101)
-	protected String			message;
+	protected String			abstr;
 
-	@Email
-	protected String			email;
+	@NotNull
+	protected Nature			activityNature;
+
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				startPeriod;
+
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				endPeriod;
 
 	@URL
-	protected String			link;
+	protected String			infoLink;
 
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
+
+	//	@NotNull
+	//	@Valid
+	//	@ManyToOne(optional = false)
+	//	protected Enrolment			enrolment;
+
 }
