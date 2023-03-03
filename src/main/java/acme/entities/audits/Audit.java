@@ -4,13 +4,13 @@ package acme.entities.audits;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
-import acme.datatypes.Mark;
 import acme.entities.course.Course;
 import acme.framework.data.AbstractEntity;
 import acme.roles.Auditor;
@@ -44,18 +44,23 @@ public class Audit extends AbstractEntity {
 	@Length(max = 100)
 	protected String			weakPoints;
 
+	//Puede ser nulo?
+	protected boolean			draftMode;
+
 	// Derived attributes -----------------------------------------------------
 
-	protected Mark				mark;
+	protected String			mark;
 
 	// Relationships ----------------------------------------------------------
 
-	//@ManyToOne(optional = false)
 	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
 	protected Course			course;
 
-	@ManyToOne(optional = false)
 	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
 	protected Auditor			auditor;
 
 }
