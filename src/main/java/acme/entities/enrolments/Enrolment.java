@@ -40,6 +40,8 @@ public class Enrolment extends AbstractEntity {
 	@Length(max = 100)
 	protected String			goals;
 
+	protected boolean			draftMode;
+
 	// Derived attributes -----------------------------------------------------
 
 	//	public Double getWorkbookTime() {
@@ -52,10 +54,5 @@ public class Enrolment extends AbstractEntity {
 	@Valid
 	@ManyToOne(optional = false)
 	protected Student			student;
-
-	@NotNull
-	@Valid
-	@ManyToOne(optional = false)
-	protected EnrolmentActivity	enrolmentActivity;
 
 }

@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.entities.enrolments.EnrolmentActivity;
+import acme.entities.enrolments.Enrolment;
 import acme.entities.nature.Nature;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
@@ -60,6 +60,6 @@ public class Activity extends AbstractEntity {
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected EnrolmentActivity	enrolmentActivity;
+	protected Enrolment			enrolment;
 
 }
