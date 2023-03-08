@@ -1,1 +1,3 @@
 key,key:userAccount,supervisor,expertise-fields,resume,link
+assistant-1,user-account-assistant-1, sample supervisor, sample-expertise-fields,sample resume, https://ev.us.es/webapps/login/
+assistant-2,user-account-assistant-2, sample supervisor 2, sample-expertise-fields,sample resume 2, null
