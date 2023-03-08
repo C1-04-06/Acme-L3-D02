@@ -3,6 +3,7 @@ package acme.entities.course;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -41,9 +42,6 @@ public class Course extends AbstractEntity {
 	@Length(max = 100)
 	protected String			abstr;
 
-	@NotNull
-	protected Nature			courseNature;
-
 	//TODO: Custom constraints
 	@NotNull
 	protected Money				price;
@@ -51,9 +49,14 @@ public class Course extends AbstractEntity {
 	@URL
 	protected String			link;
 
-	//TODO: courseNature
 
 	// Derived attributes -----------------------------------------------------
+	//TODO: courseNature
+	@NotNull
+	@Transient
+	protected Nature courseNature() {
+		return Nature.BALANCED;
+	};
 
 	// Relationships ----------------------------------------------------------
 
