@@ -4,6 +4,9 @@ package acme.entities.audits;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
@@ -28,18 +31,22 @@ public class AuditingRecord extends AbstractEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			subject;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			assesment;
 
 	@PastOrPresent
-	protected Date				initialMoment;
+	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
+	protected Date				startPeriod;
 
 	//Custom restriction
-	protected Date				finalMoment;
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				endPeriod;
 
 	@NotNull
 	protected Mark				mark;
@@ -50,4 +57,8 @@ public class AuditingRecord extends AbstractEntity {
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
+
+	@ManyToOne(optional = false)
+	protected Audit				audit;
+
 }

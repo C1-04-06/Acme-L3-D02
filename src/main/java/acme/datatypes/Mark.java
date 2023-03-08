@@ -2,5 +2,5 @@
 package acme.datatypes;
 
 public enum Mark {
-	Aplus, A, B, C, F, Fminus
+	APLUS, A, B, C, F, FMINUS
 }

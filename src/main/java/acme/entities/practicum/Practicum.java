@@ -12,8 +12,9 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
-import acme.entities.sessions.PracticumSession;
+import acme.entities.course.Course;
 import acme.framework.data.AbstractEntity;
+import acme.roles.Company;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -27,26 +28,25 @@ public class Practicum extends AbstractEntity {
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
-	@NotNull
+
 	@NotBlank
-	@Pattern(regexp = "[A-Z]{1,3}[0-9][0-9]{3}")
+	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
 	@Column(unique = true)
 	protected String			code;
 
-	@NotNull
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			title;
 
-	@NotNull
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			abstr;
 
-	@NotNull
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			goals;
+
+	protected boolean			draftMode;
 
 	// Derived attributes -----------------------------------------------------
 
@@ -64,5 +64,10 @@ public class Practicum extends AbstractEntity {
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected PracticumSession practicumSession;
+	protected Company	company;
+
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected Course	course;
 }

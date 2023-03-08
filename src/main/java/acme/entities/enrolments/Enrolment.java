@@ -3,12 +3,16 @@ package acme.entities.enrolments;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
 import acme.framework.data.AbstractEntity;
+import acme.roles.Student;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -23,31 +27,35 @@ public class Enrolment extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Pattern(regexp = "[A-Z]{1,3}[0-9][0-9]{3}")
+	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
 	@NotBlank
 	@Column(unique = true)
 	protected String			code;
 
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			motivation;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			goals;
 
 	// Derived attributes -----------------------------------------------------
 
-
-	public Double getWorkbookTime() {
-		return null;
-	}
+	//	public Double getWorkbookTime() {
+	//		return null;
+	//	}
 
 	// Relationships ----------------------------------------------------------
 
-	//	@NotNull
-	//	@Valid
-	//	@ManyToOne(optional = false)
-	//	protected Student student;
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected Student			student;
+
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected EnrolmentActivity	enrolmentActivity;
 
 }

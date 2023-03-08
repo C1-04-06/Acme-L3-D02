@@ -6,6 +6,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -25,26 +26,33 @@ public class Note extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
+	//Pasado?
+	@NotNull
 	protected Date				moment;
 
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			title;
 
 	@NotBlank
-	@Length(max = 76)
+	@Length(max = 75)
 	protected String			author;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			message;
 
 	@Email
-	//optional
+	//optional?
 	protected String			email;
 
 	@URL
-	//optional
+	//optional?
 	protected String			link;
 
+	// Derived attributes -----------------------------------------------------
+
+	// Relationships ----------------------------------------------------------
+
+	//Principal?
 }

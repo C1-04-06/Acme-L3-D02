@@ -3,6 +3,7 @@ package acme.entities.audits;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -10,7 +11,9 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.Length;
 
 import acme.datatypes.Mark;
+import acme.entities.course.Course;
 import acme.framework.data.AbstractEntity;
+import acme.roles.Auditor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,28 +27,35 @@ public class Audit extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Pattern(regexp = "[A-Z]{1,3}[0-9][0-9]{3}")
+	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
 	@NotBlank
 	@Column(unique = true)
 	protected String			code;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			conclusion;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			strongPoints;
 
 	@NotBlank
-	@Length(max = 101)
+	@Length(max = 100)
 	protected String			weakPoints;
 
 	// Derived attributes -----------------------------------------------------
 
-	@NotNull
 	protected Mark				mark;
 
 	// Relationships ----------------------------------------------------------
+
+	//@ManyToOne(optional = false)
+	@NotNull
+	protected Course			course;
+
+	@ManyToOne(optional = false)
+	@NotNull
+	protected Auditor			auditor;
 
 }
