@@ -3,7 +3,6 @@ package acme.entities.course;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Transient;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -11,7 +10,6 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.entities.nature.Nature;
 import acme.framework.components.datatypes.Money;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
@@ -29,7 +27,7 @@ public class Course extends AbstractEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	@Pattern(regexp = "[A-Z]{1,3}\\s\\d{3}")
+	@Pattern(regexp = "^[A-Z]{1,3}\\d{3}$")
 	@Column(unique = true)
 	protected String			code;
 
@@ -49,14 +47,9 @@ public class Course extends AbstractEntity {
 	@URL
 	protected String			link;
 
-
 	// Derived attributes -----------------------------------------------------
-	//TODO: courseNature
-	@NotNull
-	@Transient
-	protected Nature courseNature() {
-		return Nature.BALANCED;
-	};
+
+	//TODO: Course nature: is a derivated attribute to be calculated with the nature of its lectures
 
 	// Relationships ----------------------------------------------------------
 
