@@ -9,4 +9,3 @@ user-account-assistant-01,true,"UserIdentity{name: 'assistant1', surname: 'Acme'
 user-account-assistant-02,true,"UserIdentity{name: 'assistant2', surname: 'Acme', email: 'assistant2@acme.com'}",assistant2,assistant2
 user-account-auditor-01,true,"UserIdentity{name: 'auditor1', surname: 'Acme', email: 'auditor1@acme.com'}",auditor1,auditor2
 user-account-auditor-02,true,"UserIdentity{name: 'auditor2', surname: 'Acme', email: 'auditor2@acme.com'}",auditor2,auditor1
-
