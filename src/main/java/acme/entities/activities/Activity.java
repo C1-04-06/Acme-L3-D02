@@ -4,14 +4,17 @@ package acme.entities.activities;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.enrolments.Enrolment;
 import acme.entities.nature.Nature;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
@@ -54,9 +57,9 @@ public class Activity extends AbstractEntity {
 
 	// Relationships ----------------------------------------------------------
 
-	//	@NotNull
-	//	@Valid
-	//	@ManyToOne(optional = false)
-	//	protected Enrolment			workbook;
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected Enrolment			enrolment;
 
 }
