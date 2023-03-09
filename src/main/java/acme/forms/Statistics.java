@@ -1,16 +1,13 @@
 
 package acme.forms;
 
-import javax.persistence.Entity;
-
-import acme.framework.data.AbstractEntity;
+import acme.framework.data.AbstractForm;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
-public class Statistics extends AbstractEntity {
+public class Statistics extends AbstractForm {
 
 	// Serialisation identifier -----------------------------------------------
 
