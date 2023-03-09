@@ -11,6 +11,7 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
+import acme.entities.course.Course;
 import acme.framework.data.AbstractEntity;
 import acme.roles.Student;
 import lombok.Getter;
@@ -40,11 +41,11 @@ public class Enrolment extends AbstractEntity {
 	@Length(max = 100)
 	protected String			goals;
 
+	protected boolean			draftMode;
+
 	// Derived attributes -----------------------------------------------------
 
-	//	public Double getWorkbookTime() {
-	//		return null;
-	//	}
+	// Double getWorkbookTime() -> we cannot implement it yet
 
 	// Relationships ----------------------------------------------------------
 
@@ -56,6 +57,6 @@ public class Enrolment extends AbstractEntity {
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected EnrolmentActivity	enrolmentActivity;
+	protected Course			course;
 
 }
