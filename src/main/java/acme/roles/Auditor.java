@@ -15,6 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Auditor extends AbstractRole {
+
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
