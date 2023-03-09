@@ -49,6 +49,7 @@ public class Audit extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
+	@NotBlank
 	protected String			mark;
 
 	// Relationships ----------------------------------------------------------
