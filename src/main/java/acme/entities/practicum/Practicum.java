@@ -4,7 +4,6 @@ package acme.entities.practicum;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-import javax.persistence.Transient;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -30,7 +29,7 @@ public class Practicum extends AbstractEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
+	@Pattern(regexp = "^[A-Z]{1,3}\\d{3}$")
 	@Column(unique = true)
 	protected String			code;
 
@@ -50,24 +49,17 @@ public class Practicum extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
-
-	//To Do: Relacion para calcular el tiempo total
-	@Transient
-	public Integer totalTime() {
-		final int result = 0;
-
-		return result;
-	}
-
+	//To Do: Atributo derivado para calcular el tiempo total
+	//(en horas, computadas a partir de las sesiones correspondientes más/menos 10%)
 
 	// Relationships ----------------------------------------------------------
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Company	company;
+	protected Company			company;
 
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Course	course;
+	protected Course			course;
 }

@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PastOrPresent;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -26,7 +27,7 @@ public class Note extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	//Pasado?
+	@PastOrPresent
 	@NotNull
 	protected Date				moment;
 
@@ -43,16 +44,14 @@ public class Note extends AbstractEntity {
 	protected String			message;
 
 	@Email
-	//optional?
 	protected String			email;
 
 	@URL
-	//optional?
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
 
-	//Principal?
+	//Principal
 }
