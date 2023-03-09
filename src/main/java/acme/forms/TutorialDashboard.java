@@ -12,29 +12,18 @@
 
 package acme.forms;
 
-import acme.framework.data.AbstractForm;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Dashboard extends AbstractForm {
+public class TutorialDashboard extends Statistics {
 
 	// Serialisation identifier -----------------------------------------------
 
-	protected static final long	serialVersionUID	= 1L;
+	protected static final long serialVersionUID = 1L;
 
 	// Attributes -------------------------------------------------------------
-
-	Double						totalNumberOfTutorials;
-	Double						averageTimeSessions;
-	Double						deviationTimeSessions;
-	Double						minTimeSessions;
-	Double						maxTimeSessions;
-	Double						averageTimeTutorials;
-	Double						deviationTimeTutorials;
-	Double						minTimeTutorials;
-	Double						maxTimeTutorials;
 
 	// Derived attributes -----------------------------------------------------
 
