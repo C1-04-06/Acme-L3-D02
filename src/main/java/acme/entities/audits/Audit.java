@@ -27,7 +27,7 @@ public class Audit extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
+	@Pattern(regexp = "^[A-Z]{1,3}\\d{3}$")
 	@NotBlank
 	@Column(unique = true)
 	protected String			code;
@@ -48,9 +48,6 @@ public class Audit extends AbstractEntity {
 	protected boolean			draftMode;
 
 	// Derived attributes -----------------------------------------------------
-
-	@NotBlank
-	protected String			mark;
 
 	// Relationships ----------------------------------------------------------
 
