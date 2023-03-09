@@ -45,6 +45,7 @@ public class Audit extends AbstractEntity {
 	protected String			weakPoints;
 
 	//Puede ser nulo?
+	@NotNull
 	protected boolean			draftMode;
 
 	// Derived attributes -----------------------------------------------------
