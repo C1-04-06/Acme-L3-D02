@@ -38,7 +38,6 @@ public class Lecture extends AbstractEntity {
 	@Length(max = 100)
 	protected String			abstr;
 
-	//tres dígitos enteros, dos dígitos fraccionales, y mínimo valor 0.01.
 	@Positive
 	@Digits(integer = 3, fraction = 2)
 	@DecimalMin(value = "0.01", inclusive = true)

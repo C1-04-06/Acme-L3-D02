@@ -31,6 +31,7 @@ public class Banner extends AbstractEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date				startPeriod;
 
+	//TODO: Custom constraints 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date				endPeriod;
