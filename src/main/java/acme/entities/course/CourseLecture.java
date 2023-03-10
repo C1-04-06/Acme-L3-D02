@@ -6,6 +6,7 @@ import javax.persistence.ManyToOne;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
+import acme.entities.lecture.Lecture;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,10 +28,10 @@ public class CourseLecture extends AbstractEntity {
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected CourseLecture		course;
+	protected Course			course;
 
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected CourseLecture		lecture;
+	protected Lecture			lecture;
 }
