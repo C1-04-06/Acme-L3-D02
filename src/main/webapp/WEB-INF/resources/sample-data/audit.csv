@@ -1,3 +1,6 @@
 key,key:auditor,key:course,code,conclusion,strongPoints,weakPoints,draftMode
-audit-01,auditor-01,course-01,ABC111,conclusion1,strong points1,weak points1,false
-audit-02,auditor-02,course-01,ABC222,conclusion2,strong points2,weak points2,false
+audit-01,auditor-01,course-01,A111,c,c,c,false
+audit-02,auditor-02,course-01,AB123,con,con,con,true
+audit-03,auditor-01,course-01,ABC456,Esta proposicion contiene 50 caracteres para test.,Esta proposicion contiene 50 caracteres para test.,Esta proposicion contiene 50 caracteres para test.,false
+audit-04,auditor-02,course-01,JKD789,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,true
+audit-05,auditor-01,course-01,PDK999,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,false
