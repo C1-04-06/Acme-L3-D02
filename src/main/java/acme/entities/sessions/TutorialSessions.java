@@ -40,7 +40,7 @@ public class TutorialSessions extends AbstractEntity {
 	protected String			abstr;
 
 	@NotNull
-	protected Nature			tutorialType;
+	protected Nature			sessionType;
 
 	//El periodo debe crearse con al menos un día de antelación y puede durar hasta 5 horas. Implementar como validación custom.
 	@Temporal(TemporalType.TIMESTAMP)

@@ -8,7 +8,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Past;
+import javax.validation.constraints.PastOrPresent;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -31,7 +31,7 @@ public class Offer extends AbstractEntity {
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
-	@Past
+	@PastOrPresent
 	protected Date				instantationMoment;
 
 	@NotBlank
@@ -43,6 +43,7 @@ public class Offer extends AbstractEntity {
 	@Length(max = 100)
 	protected String			summary;
 
+	//El periodo debe iniciar al menos un día después de la creación de la oferta y debe durar al menos una semana. Implementar como validación custom.
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
 	protected Date				startPeriod;
