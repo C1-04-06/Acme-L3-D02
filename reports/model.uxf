@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.0.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>4</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1314</x>
-      <y>54</y>
-      <w>306</w>
-      <h>153</h>
+      <x>792</x>
+      <y>152</y>
+      <w>136</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Student
@@ -23,10 +23,10 @@ bg=blue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>0</y>
-      <w>297</w>
-      <h>153</h>
+      <x>608</x>
+      <y>128</y>
+      <w>132</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Activity
@@ -45,10 +45,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>252</y>
-      <w>288</w>
-      <h>153</h>
+      <x>608</x>
+      <y>240</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Enrolment
@@ -66,10 +66,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>522</y>
-      <w>288</w>
-      <h>162</h>
+      <x>608</x>
+      <y>360</y>
+      <w>128</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Course
@@ -89,10 +89,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>432</x>
-      <y>522</y>
-      <w>288</w>
-      <h>153</h>
+      <x>400</x>
+      <y>360</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Practicum
@@ -111,10 +111,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>522</y>
-      <w>288</w>
-      <h>153</h>
+      <x>208</x>
+      <y>360</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 PracticumSession
@@ -131,10 +131,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>423</x>
-      <y>252</y>
-      <w>306</w>
-      <h>153</h>
+      <x>396</x>
+      <y>240</y>
+      <w>136</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Company
@@ -150,10 +150,10 @@ bg=blue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>792</y>
-      <w>288</w>
-      <h>153</h>
+      <x>608</x>
+      <y>480</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Tutorial
@@ -172,10 +172,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>423</x>
-      <y>792</y>
-      <w>306</w>
-      <h>153</h>
+      <x>396</x>
+      <y>480</y>
+      <w>136</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Assistant
@@ -191,10 +191,10 @@ bg=blue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>1044</y>
-      <w>288</w>
-      <h>153</h>
+      <x>608</x>
+      <y>592</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 TutorialSession
@@ -212,10 +212,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1782</x>
-      <y>279</y>
-      <w>288</w>
-      <h>153</h>
+      <x>1000</x>
+      <y>252</y>
+      <w>128</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Lecture
@@ -231,10 +231,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1323</x>
-      <y>279</y>
-      <w>306</w>
-      <h>153</h>
+      <x>796</x>
+      <y>252</y>
+      <w>136</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Lecturer
@@ -250,10 +250,10 @@ bg=blue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1314</x>
-      <y>639</y>
-      <w>306</w>
-      <h>171</h>
+      <x>792</x>
+      <y>412</y>
+      <w>136</w>
+      <h>76</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Audit
@@ -274,10 +274,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1764</x>
-      <y>648</y>
-      <w>297</w>
-      <h>153</h>
+      <x>992</x>
+      <y>416</y>
+      <w>132</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 AuditingRecord
@@ -296,10 +296,10 @@ bg=green
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1305</x>
-      <y>918</y>
-      <w>315</w>
-      <h>153</h>
+      <x>788</x>
+      <y>536</y>
+      <w>140</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Auditor
@@ -315,10 +315,10 @@ bg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>711</x>
-      <y>603</y>
-      <w>207</w>
-      <h>45</h>
+      <x>524</x>
+      <y>396</y>
+      <w>92</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=*
@@ -329,10 +329,10 @@ belongs &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>567</x>
-      <y>396</y>
-      <w>99</w>
-      <h>144</h>
+      <x>460</x>
+      <y>304</y>
+      <w>44</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=*
@@ -343,10 +343,10 @@ offered by ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>279</x>
-      <y>594</y>
-      <w>171</w>
-      <h>45</h>
+      <x>332</x>
+      <y>392</y>
+      <w>76</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=x-&gt;&gt;&gt;&gt;&gt;
 m1= *
@@ -356,10 +356,10 @@ belongs &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>396</y>
-      <w>81</w>
-      <h>144</h>
+      <x>668</x>
+      <y>304</y>
+      <w>36</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -370,10 +370,10 @@ belongs v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1179</x>
-      <y>126</y>
-      <w>162</w>
-      <h>234</h>
+      <x>732</x>
+      <y>184</y>
+      <w>72</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=*
@@ -384,10 +384,10 @@ belongs ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>144</y>
-      <w>81</w>
-      <h>126</h>
+      <x>668</x>
+      <y>192</y>
+      <w>36</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-x
 m2= *
@@ -397,10 +397,10 @@ belongs v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>675</y>
-      <w>81</w>
-      <h>135</h>
+      <x>668</x>
+      <y>428</y>
+      <w>36</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=*
@@ -411,10 +411,10 @@ belongs ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>864</y>
-      <w>198</w>
-      <h>45</h>
+      <x>528</x>
+      <y>512</y>
+      <w>88</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -425,10 +425,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>936</y>
-      <w>81</w>
-      <h>126</h>
+      <x>668</x>
+      <y>544</y>
+      <w>36</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=x-&gt;&gt;&gt;&gt;&gt;
 
@@ -439,10 +439,10 @@ belongs ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1683</x>
-      <y>423</y>
-      <w>270</w>
-      <h>135</h>
+      <x>956</x>
+      <y>316</y>
+      <w>120</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=*
@@ -453,10 +453,10 @@ joins ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1179</x>
-      <y>612</y>
-      <w>153</w>
-      <h>108</h>
+      <x>732</x>
+      <y>400</y>
+      <w>68</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -467,10 +467,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1620</x>
-      <y>342</y>
-      <w>180</w>
-      <h>45</h>
+      <x>928</x>
+      <y>280</y>
+      <w>80</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -481,10 +481,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1611</x>
-      <y>711</y>
-      <w>171</w>
-      <h>45</h>
+      <x>924</x>
+      <y>444</y>
+      <w>76</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-x
 m2= *
@@ -494,10 +494,10 @@ m2= *
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1458</x>
-      <y>801</y>
-      <w>99</w>
-      <h>135</h>
+      <x>856</x>
+      <y>484</y>
+      <w>44</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -508,10 +508,10 @@ audited by v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1404</x>
-      <y>495</y>
-      <w>288</w>
-      <h>90</h>
+      <x>832</x>
+      <y>348</y>
+      <w>128</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 CourseLecture
@@ -523,10 +523,10 @@ bg=green
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1179</x>
-      <y>522</y>
-      <w>243</w>
-      <h>99</h>
+      <x>732</x>
+      <y>360</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
@@ -537,10 +537,10 @@ m2=*
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>756</x>
-      <y>414</y>
-      <w>171</w>
-      <h>72</h>
+      <x>544</x>
+      <y>312</y>
+      <w>76</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>courseNature: is a derivated 
 attribute to be calculated 
@@ -552,10 +552,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>918</x>
-      <y>441</y>
-      <w>81</w>
-      <h>99</h>
+      <x>616</x>
+      <y>324</y>
+      <w>36</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>70.0;90.0;70.0;10.0;10.0;10.0</additional_attributes>
@@ -563,15 +563,41 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1116</x>
-      <y>342</y>
-      <w>225</w>
-      <h>198</h>
+      <x>704</x>
+      <y>280</y>
+      <w>100</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
 m2=*
 involucred &gt;</panel_attributes>
     <additional_attributes>230.0;10.0;170.0;10.0;170.0;100.0;10.0;100.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>328</x>
+      <y>316</y>
+      <w>76</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>totalTime: is a derivated 
+attribute (in hours, computed 
+from the corresponding
+sessions plus/minus 10%)
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>328</y>
+      <w>36</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>70.0;80.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
