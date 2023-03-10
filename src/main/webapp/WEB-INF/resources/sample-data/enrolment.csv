@@ -1,0 +1,6 @@
+key,key:Course,key:Student,code,motivation,goals,draft-mode
+enrolment-01,course-01,student-01,DP001,"Learn to use the ACME framework and learn useful top professional practices","Be able to develop in a work environment and gain competences in analysing problems or difficulties.",true
+enrolment-02,course-02,student-01,ASR023,"Learn to configure your own private Intranet","Be able to develop an intranet configuration for your work environment.",false
+enrolment-03,course-02,student-02,MVG002,"Learn the basics of modelling and visualizing a 3D model","Be able to know and develop fully the properties of a consistent meshing.",false
+enrolment-04,course-02,student-01,IA003,"Develop a functional artificial intelligence with ease","Learn the basics of a neuronal network. Also learn about neurons and train them to make calculations",false
+enrolment-05,course-03,student-02,D017,"Elaborate precise documentation and a complete analysis of requirements","Be able to do a complete analysis of requirements and learn to negotiate them with your client.",true
