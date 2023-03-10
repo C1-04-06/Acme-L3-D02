@@ -48,7 +48,7 @@ public class Tutorial extends AbstractEntity {
 	protected boolean			draftMode;
 
 	// Derived attributes -----------------------------------------------------
-	//totalTime: Este atributo se calcula sumando los tiempos de todas las sesiones de que pertenezcan al tutorial. 
+	// Integer totalTime: Este atributo se calcula sumando los tiempos de todas las sesiones de que pertenezcan al tutorial. 
 	// Relationships ----------------------------------------------------------
 
 	@NotNull
