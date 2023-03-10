@@ -1,2 +1,4 @@
 key,key:lecturer,code,title,abstr,price,link
-course-01,lecturer-01,AB789,sample-title,sample abstract,"EUR 3,000.56",https://ev.us.es/webapps/login/
+course-01,lecturer-01,AB789,sample-title,sample-abstract,"EUR 3,000.56",https://es.wikipedia.org/wiki/Curso
+course-02,lecturer-01,A572,sample-title,sample-abstract,EUR 200.19,https://es.wikipedia.org/wiki/Curso
+course-03,lecturer-02,ABG139,sample-title-sample-title-sample-title-sample-title-sample-title-sample-tit,sample-abstract-sample-abstract-sample-abstract-sample-abstract-sample-abstract-sample-abstract-samp,"EUR 35,670.00",
