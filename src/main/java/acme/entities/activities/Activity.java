@@ -42,13 +42,15 @@ public class Activity extends AbstractEntity {
 	@NotNull
 	protected Nature			activityNature;
 
+	// Custom restriction: Both following dates can be either in the future or the past
+
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date				startPeriod;
 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				endPeriod;
+	protected Date				endPeriod; // Custom restriction: endPeriod must be after startPeriod
 
 	@URL
 	protected String			link;
