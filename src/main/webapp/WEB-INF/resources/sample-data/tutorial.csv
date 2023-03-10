@@ -1,3 +1,3 @@
 key,key:course,key:assistant,code,title,abstr,goals,draftMode
-tutorial-01,course-01,assistant-01,AAA928,Modelado en Blender,En este curso puedes aprender todo sobre modelado en Blender,Aprender modelado,true
-tutorial-02,course-02,assistant-02,ABC777,"Fundamentos de Programación (Java, Python, Javascript, PHP, C, C++, R,etc )",Durante esta serie de tutoriales se veran los fundamentos de los lenguajes mas usados para programar,"Experiencia, recursos, educacion, formacion, programacion, aprender, diseño, fundamentos, etc,etc..",true
+tutorial-01,course-01,assistant-01,AAA928,Modeling in Blender,In this course you can learn everything about modeling in Blender,learn modeling,true
+tutorial-02,course-02,assistant-02,ABC777,"Programming Fundamentals (Java, Python, Javascript, PHP, C, C++, R, etc).","During this series of tutorials you will see the fundamentals of the most used ​​languages(C++,C...)","Experience, resources, education, training, programming, learning, design, fundamentals, etc, etc..",true

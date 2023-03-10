@@ -636,13 +636,13 @@ bg=yellow</panel_attributes>
       <w>132</w>
       <h>78</h>
     </coordinates>
-    <panel_attributes>Period: startPeriod y 
-endPeriod forman un 
-periodo que debe cumplir
-la siguiente restricción: 
-crearse al menos 
-con un día de antelación y durar 
-de una a cinco horas.
+    <panel_attributes>Period: startPeriod and
+endPeriod form a
+period to be fulfilled
+the following restriction:
+be created at least
+one day in advance and last
+one to five hours.
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
