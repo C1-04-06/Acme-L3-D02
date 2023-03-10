@@ -28,7 +28,7 @@ public class Enrolment extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@Pattern(regexp = "[A-Z]{1,3}\\d{3}")
+	@Pattern(regexp = "^[A-Z]{1,3}\\d{3}$")
 	@NotBlank
 	@Column(unique = true)
 	protected String			code;
@@ -45,7 +45,7 @@ public class Enrolment extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
-	// Double getWorkbookTime() -> we cannot implement it yet
+	// Integer getWorkbookTime() -> we cannot implement it yet. Total time in hours
 
 	// Relationships ----------------------------------------------------------
 
