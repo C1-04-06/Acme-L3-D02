@@ -1,4 +1,4 @@
 key,key:tutorial,title,abstr,session-type,start-period,end-period,link
-tutorial-session-01,tutorial-01,Introduccion a Blender, Aprender manejo por la interfaz y uso de herramientas principales,HANDS_ON,2022/08/08 12:00,2022/08/08 13:30,https://www.blender.org/
-tutorial-session-02,tutorial-01,Principios de modelado, Durante esta sesion modelaremos objetos sencillos,HANDS_ON,2022/10/08 12:00,2022/10/08 14:00,null
-tutorial-session-03,tutorial-02, Fundamentos de programacion: conocimientos basicos sobre el lenguaje java., Durante esta primera sesion se aprenderan  conceptos basicos sobre el lenguaje de programacion java,THEORETICAL,2022/11/08 15:00,2022/11/08 20:00,https://www.java.com/es/
+tutorial-session-01,tutorial-01,Introduction to Blender, Learn to use the interface and use the main tools,HANDS_ON,2022/08/08 12:00,2022/08/08 13:30,https://www.blender.org/
+tutorial-session-02,tutorial-01,Modeling principles, During this session we will model simple objects,HANDS_ON,2022/10/08 12:00,2022/10/08 14:00,null
+tutorial-session-03,tutorial-02, Fundamentals of programming: basic knowledge of the java languaje(objects),During this first session you will learn basic concepts about the Java programming language(objects),THEORETICAL,2022/11/08 15:00,2022/11/08 20:00,https://www.java.com/es/
