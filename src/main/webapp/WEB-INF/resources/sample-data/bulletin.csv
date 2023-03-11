@@ -1,0 +1,3 @@
+key,instantiation-moment,title,message,flag,link
+bulletin-01,2021/08/10 13:00,This bulletin is an example to prove that you can write with 75 characters ,This message is an example to prove that you can write a message using 100 characteres max :DDDDDDDD,true,https://www.google.com/search?q=link&rlz=1C1ONGR_esES974ES974&sxsrf=AJOqlzVSjNYgNTnlwoWxp5dyYUsmfCrZGw:1678532480345&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjN_e_h3NP9AhVxh_0HHWwkA2EQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25
+bulletin-02,2022/07/10 14:00,Not critical message,This is only an example of a not critical message,false,null
