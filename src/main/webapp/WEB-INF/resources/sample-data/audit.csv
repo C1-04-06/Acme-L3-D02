@@ -1,6 +1,33 @@
-key,key:auditor,key:course,code,conclusion,strongPoints,weakPoints,draftMode
-audit-01,auditor-01,course-01,A111,c,c,c,false
-audit-02,auditor-02,course-01,AB123,con,con,con,true
-audit-03,auditor-01,course-01,ABC456,Esta proposicion contiene 50 caracteres para test.,Esta proposicion contiene 50 caracteres para test.,Esta proposicion contiene 50 caracteres para test.,false
-audit-04,auditor-02,course-01,JKD789,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,Esta proposicion contiene 93 caracteres para testear la base de datos de mi aplicacion de DP.,true
-audit-05,auditor-01,course-01,PDK999,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,false
+key,code,conclusion,strongPoints,weakPoints,draftMode,key:auditor,key:course
+audit-01,A900,Esto es un texto de prueba,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-02,AA900,Esto es un texto de prueba,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-03,AAA900,Esto es un texto de prueba,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-04,AAA901,E,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-05,AAA902,Es,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-06,AAA903,Esta proposicion contiene 50 caracteres para test.,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-07,AAA904,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion de ACME-L3 .,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-08,AAA905,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-09,AAA906,Для,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-10,AAA907,सम्पुट,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-11,AAA908,<p>Mi gato es muy gruñon</p>,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-12,AAA909,function myFunc(theObject) {theObject.make = "Toyota";},Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-01,course-01
+audit-13,AAA910,Esto es un texto de prueba,E,Esto es un texto de prueba,false,auditor-01,course-01
+audit-14,AAA911,Esto es un texto de prueba,Es,Esto es un texto de prueba,false,auditor-01,course-01
+audit-15,AAA912,Esto es un texto de prueba,Esta proposicion contiene 50 caracteres para test.,Esto es un texto de prueba,false,auditor-01,course-01
+audit-16,AAA913,Esto es un texto de prueba,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion de ACME-L3 .,Esto es un texto de prueba,false,auditor-01,course-01
+audit-17,AAA914,Esto es un texto de prueba,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esto es un texto de prueba,false,auditor-01,course-01
+audit-18,AAA915,Esto es un texto de prueba,Для,Esto es un texto de prueba,false,auditor-01,course-01
+audit-19,AAA916,Esto es un texto de prueba,सम्पुट,Esto es un texto de prueba,false,auditor-01,course-01
+audit-20,AAA917,Esto es un texto de prueba,<p>Mi gato es muy gruñon</p>,Esto es un texto de prueba,false,auditor-01,course-01
+audit-21,AAA918,Esto es un texto de prueba,function myFunc(theObject) {theObject.make = "Toyota";},Esto es un texto de prueba,false,auditor-01,course-01
+audit-22,AAA919,Esto es un texto de prueba,Esto es un texto de prueba,E,false,auditor-01,course-01
+audit-23,AAA920,Esto es un texto de prueba,Esto es un texto de prueba,Es,false,auditor-01,course-01
+audit-24,AAA921,Esto es un texto de prueba,Esto es un texto de prueba,Esta proposicion contiene 50 caracteres para test.,false,auditor-01,course-01
+audit-25,AAA922,Esto es un texto de prueba,Esto es un texto de prueba,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion de ACME-L3 .,false,auditor-01,course-01
+audit-26,AAA923,Esto es un texto de prueba,Esto es un texto de prueba,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,false,auditor-01,course-01
+audit-27,AAA924,Esto es un texto de prueba,Esto es un texto de prueba,Для,false,auditor-01,course-01
+audit-28,AAA925,Esto es un texto de prueba,Esto es un texto de prueba,सम्पुट,false,auditor-01,course-01
+audit-29,AAA926,Esto es un texto de prueba,Esto es un texto de prueba,<p>Mi gato es muy gruñon</p>,false,auditor-01,course-01
+audit-30,AAA927,Esto es un texto de prueba,Esto es un texto de prueba,function myFunc(theObject) {theObject.make = "Toyota";},false,auditor-01,course-01
+audit-31,AAA928,Esto es un texto de prueba,Esto es un texto de prueba,Esto es un texto de prueba,true,auditor-01,course-01
+audit-32,AAA929,Esto es un texto de prueba,Esto es un texto de prueba,Esto es un texto de prueba,false,auditor-02,course-01

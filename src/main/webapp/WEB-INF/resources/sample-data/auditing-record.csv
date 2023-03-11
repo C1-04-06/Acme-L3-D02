@@ -10,9 +10,9 @@ auditing-record-08,<p>Mi gato es muy gruñon</p>,Esto es un texto de prueba,1990
 auditing-record-09,function myFunc(theObject) {theObject.make = "Toyota";},Esto es un texto de prueba,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
 auditing-record-10,Esto es un texto de prueba,E,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
 auditing-record-11,Esto es un texto de prueba,Es,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
-auditing-record-12,Esto es un texto de prueba,Esta proposicion contiene 40 caracteres.,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
-auditing-record-13,Esto es un texto de prueba,Esta proposicion contiene 74 caracteres para hacer tests en una appweb :>.,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
-auditing-record-14,Esto es un texto de prueba,Esta proposicion contiene 75 caracteres para hacer tests en una aplicacion.,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
+auditing-record-12,Esto es un texto de prueba,Esta proposicion contiene 50 caracteres para test.,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
+auditing-record-13,Esto es un texto de prueba,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion de ACME-L3 .,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
+auditing-record-14,Esto es un texto de prueba,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
 auditing-record-15,Esto es un texto de prueba,Для,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
 auditing-record-16,Esto es un texto de prueba,सम्पुट,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
 auditing-record-17,Esto es un texto de prueba,<p>Mi gato es muy gruñon</p>,1990/01/15 09:20,1990/01/15 09:20,APLUS,https://github.com/orgs/C1-04-06/repositories,audit-01
