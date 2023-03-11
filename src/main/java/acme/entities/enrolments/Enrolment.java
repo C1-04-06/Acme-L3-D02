@@ -45,7 +45,7 @@ public class Enrolment extends AbstractEntity {
 
 	// Derived attributes -----------------------------------------------------
 
-	// Integer getWorkbookTime() -> we cannot implement it yet. Total time in hours
+	// Double workbookTime -> Total time in hours, computed from the total time of its activities
 
 	// Relationships ----------------------------------------------------------
 
