@@ -58,7 +58,7 @@ Pattern(^[A-Z]{1,3}\\d{3}$)}
 + motivation: String {NotBlank, Length(max = 75)}
 + goals: String {NotBlank, Length(max = 100)}
 + draftMode: boolean
-+ /workbookTime: Integer
++ /workbookTime: Double
 bg=green
 </panel_attributes>
     <additional_attributes/>
