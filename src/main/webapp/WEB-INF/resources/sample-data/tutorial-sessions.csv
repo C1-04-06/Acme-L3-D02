@@ -2,3 +2,10 @@ key,key:tutorial,title,abstr,session-type,start-period,end-period,link
 tutorial-session-01,tutorial-01,Introduction to Blender, Learn to use the interface and use the main tools,HANDS_ON,2022/08/08 12:00,2022/08/08 13:30,https://www.blender.org/
 tutorial-session-02,tutorial-01,Modeling principles, During this session we will model simple objects,HANDS_ON,2022/10/08 12:00,2022/10/08 14:00,null
 tutorial-session-03,tutorial-02, Fundamentals of programming: basic knowledge of the java languaje(objects),During this first session you will learn basic concepts about the Java programming language(objects),THEORETICAL,2022/11/08 15:00,2022/11/08 20:00,https://www.java.com/es/
+tutorial-session-04,tutorial-02,Esta proposicion contiene 75 caracteres para hacer tests en una aplicacion.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,THEORETICAL,2022/12/31 23:59,2023/01/01 02:00,"https://server.local/?a=1&b=2"
+tutorial-session-05,tutorial-02,Esta proposicion contiene 74 caracteres para hacer tests en una aplicacion,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,THEORETICAL,2022/12/31 23:59,2023/01/01 02:00,"https://server.local/?a=1&b=2"
+tutorial-session-06,tutorial-02,a,b,THEORETICAL,2022/12/31 23:59,2023/01/01 02:37,"https://server.local/?a=1&b=2"
+tutorial-session-07,tutorial-02,ab,cd,THEORETICAL,2022/07/31 00:00,2022/07/31 05:00,"https://server.local/?a=1&b=2"
+tutorial-session-08,tutorial-02,<script>alert('hi?')</script>,<script>alert('hi?')</script>,THEORETICAL,2022/07/31 00:00,2022/07/31 04:59,"https://server.local/?a=1&b=2"
+tutorial-session-09,tutorial-02,Pokemon en un minuto,<p>Mi pikachu es muy gruñon</p>,THEORETICAL,2022/07/31 00:00,2022/07/31 00:01,"https://server.local/?a=1&b=2"
+tutorial-session-10,tutorial-02,شاهزاده ایرانی,ой яка гра,THEORETICAL,2022/07/31 00:00,2022/07/31 00:19,https://www.youtube.com/watch?v=WtCddzrsYF4&ab_channel=UbisoftSpain
