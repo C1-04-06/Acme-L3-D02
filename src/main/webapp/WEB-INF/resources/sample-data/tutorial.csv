@@ -1,3 +1,11 @@
-key,key:course,key:assistant,code,title,abstr,goals,draftMode
+key,key:course,key:assistant,code,title,abstr,goals,draft-mode
 tutorial-01,course-01,assistant-01,AAA928,Modeling in Blender,In this course you can learn everything about modeling in Blender,learn modeling,true
 tutorial-02,course-02,assistant-02,ABC777,"Programming Fundamentals (Java, Python, Javascript, PHP, C, C++, R, etc).","During this series of tutorials you will see the fundamentals of the most used ​​languages(C++,C...)","Experience, resources, education, training, programming, learning, design, fundamentals, etc, etc..",true
+tutorial-03,course-02,assistant-02,A123,Esto es una prueba para llegar a los 75 caracteres hola que tal nos quedan1,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,true
+turorial-04,course-02,assistant-02,AB342,Esto es una prueba para llegar a los 74 caracteres hola que tal quedan,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,true
+tutorial-05,course-02,assistant-02,ZZZ768,a,b,c,true
+tutorial-06,course-02,assistant-01,BBB567,ab,cd,ef,true
+tutorial-07,course-02,assistant-02,WNW444,<script>alert('hi?')</script>,<script>alert('hi?')</script>,<script>alert('hi?')</script>,true
+tutorial-08,course-02,assistant-02,XYZ309,<p>Mi gato es muy gruñon</p>,<p>Mi gato es muy gruñon</p>,<p>Mi gato es muy gruñon</p>,false
+tutorial-09,course-02,assistant-01,LLL000,सम्पुट,सम्पुट,सम्पुट,false
+tutorial-10,course-02,assistant-01,LJL000,Для,Для,Для,false
