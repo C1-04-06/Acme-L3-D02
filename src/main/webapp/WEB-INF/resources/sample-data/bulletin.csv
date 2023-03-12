@@ -1,3 +1,11 @@
 key,instantiation-moment,title,message,flag,link
 bulletin-01,2021/08/10 13:00,This bulletin is an example to prove that you can write with 75 characters ,This message is an example to prove that you can write a message using 100 characteres max :DDDDDDDD,true,https://www.google.com/search?q=link&rlz=1C1ONGR_esES974ES974&sxsrf=AJOqlzVSjNYgNTnlwoWxp5dyYUsmfCrZGw:1678532480345&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjN_e_h3NP9AhVxh_0HHWwkA2EQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25
 bulletin-02,2022/07/10 14:00,Not critical message,This is only an example of a not critical message,false,null
+bulletin-03,2002/06/30 12:00,Mensaje critico, Este mensaje es una prueba en español,true,null
+bulletin-04,2005/07/05 20:00,Mensaje no crítico, Este mensaje comprueba tildes español,false,null
+bulletin-05,2010/09/05 21:00,Cuidado un hacker,<script>alert('Pincha aquí?')</script>,true,https://www.youtube.com/
+bulletin-06,2013/10/10 08:00,Yo me llamo Ralph,<p>Mi gato es muy gruñon</p>,false,null
+bulletin-07,2015/12/01 22:00,Je suis franÇais, Je me appelle Yeisi,true,https://es.wikipedia.org/wiki/Francia
+bulletin-08,2016/01/20 13:25,Mario's car, Mamma mia this is my car,true,https://mariokarttour.com/es-ES 
+bulletin-09,2005/03/15 16:35,¡UN FORASTEROO!,Hay un forastero llamado Leon Kenedy en el pueblo,true,https://www.youtube.com/watch?v=l2SCwbZIKhQ&ab_channel=PigsyGames
+bulletin-10,2010/04/15 13:20,Helikopter,Для,false,https://www.youtube.com/watch?v=a0DbzUe-r4Q&ab_channel=Fazlija
