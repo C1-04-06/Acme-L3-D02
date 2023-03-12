@@ -1,3 +1,11 @@
 key,key:company,key:course,code,title,abstr,goals,draft-mode
 practicum-01,company-01,course-01,ABC345,Example title with 75 characters to prove that the validation is functional,In this practicum you can se an example  of  the table practicum an I want to reach 100 caracters :D,The goals about this example is the same of the abstr I need to reach the 100 characters so :DDDDDD,true
 practicum-02,company-02,course-01,BB504,Example title,Example abstr,Example goal,false
+practicum-03,company-01,course-02,C302,Ejemplo de título,¿Qué puedo poner aquí?,Meta de ejemplo,false
+practicum-04,company-02,course-01,ZZZ999,你好,<- ahí pone hola tranquilos,#TREMENDO,false
+practicum-05,company-01,course-02,AAA000,OFICINA DE GRITOS,¡¡¡¡NO ESTOY GRITANDOO!!!!,a,true
+practicum-06,company-01,course-02,A009,Ήρθα για σένα πατέρα,Aprende a ser un dios de la guerra,Objetivo ser el dios de la guerra,true
+practicum-07,company-02,course-02,AB450,<script>alert('Aprende a saltar')</script>,Espero que no funcione ese script,No tengo metas,false
+practicum-08,company-02,course-02,CZA687,Sumar,¿Puedes sumar 3+4?,Comprobar que se pueden colocar sumas,false
+practicum-09,company-01,course-01,A000,P,A,M,false
+practicum-10,company-02,course-01,BF345,¿Que pasa si pulso aleatorio el teclado?,bethtnehetnhyettgnh,thendsehyntyyghbt,true
