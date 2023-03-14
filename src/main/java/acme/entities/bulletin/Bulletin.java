@@ -30,7 +30,7 @@ public class Bulletin extends AbstractEntity {
 	@NotNull
 	@PastOrPresent
 	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				moment;
+	protected Date				instantiationMoment;
 
 	@NotBlank
 	@Length(max = 75)
@@ -43,6 +43,7 @@ public class Bulletin extends AbstractEntity {
 	protected boolean			flag;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------

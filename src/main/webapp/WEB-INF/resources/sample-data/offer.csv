@@ -1,0 +1,11 @@
+key,instantation-moment,heading,summary,start-period,end-period,price,link
+offer-01,2022/06/30 23:59,"this is an example for a heading that test the length restriction of 75 ch","this is an example summary that tests the condition of having a length no greater than 100 character",2022/07/01 23:59,2022/07/07 23:59,"EUR 123.45",null
+offer-02,2022/07/05 14:00,"Blender tutorial 50% off", "From 2022/07/06 15:00 to 2022/08/07 17:30 Blender tutorials are 50% off",2022/07/06 15:00,2022/08/07 17:30, "USD 1,000.50",https://www.blender.org/
+offer-03,2022/07/30 00:00,a,b,2022/07/31 00:00,2022/08/07 00:00, "GBP 0.50",https://www.blender.org/
+offer-04,2022/05/30 00:00,ab,cd,2023/01/01 00:00,2023/01/07 00:00, "EUR 0.50",https://www.blender.org/
+offer-05,2022/04/30 00:00,Esta proposicion contiene 75 caracteres para hacer tests en una aplicacion.,Esta proposicion contiene 100 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,2023/01/01 00:00,2023/01/07 00:00, "EUR 0.50",https://www.blender.org/
+offer-06,2022/07/30 00:00,Esta proposicion contiene 74 caracteres para hacer tests en una aplicacion,Esta proposicion contiene 99 caracteres para testear la base de datos de mi aplicacion ACME-L3-D02.,2023/01/01 00:00,2023/01/07 00:00, "EUR 0.50",https://www.blender.org/
+offer-07,2022/06/30 00:00,<script>alert('hi?')</script>,<script>alert('Where am I?')</script>,2022/08/01 00:00,2022/08/23 00:52, "USD 1,120.50",https://www.blender.org/
+offer-08,2022/07/30 00:00,<p>Mi gato ya no es muy gruñon</p>,<p>parece que me equivoqué</p>,2022/08/01 00:00,2022/08/23 00:52, "USD 9,999.99",https://www.blender.org/
+offer-09,2022/07/30 00:00,こんにちは,またあったね,2022/08/01 00:00,2022/08/07 00:00, "GBP 0.50",https://www.blender.org/
+offer-10,2022/07/30 00:00,Kia ora,He aha te taima?,2022/08/01 00:00,2022/08/07 00:00, "GBP 0.50",https://www.blender.org/

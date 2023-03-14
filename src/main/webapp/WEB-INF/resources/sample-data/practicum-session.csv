@@ -1,0 +1,9 @@
+key,key:practicum,title,abstr,start-period,end-period,link
+practicum-session-01,practicum-01,Example title with 75 characters to prove that the validation is functional,This practicum session is an example  of  the table practicum session to reach 100 characters :D ...,2022/08/08 12:00,2022/08/15 12:00,https://i.etsystatic.com/30441432/r/il/2ef83e/3530029706/il_1080xN.3530029706_2ygm.jpg
+practicum-session-02,practicum-01,Example title,Example abstract,2022/08/08 12:00,2022/08/20 13:00,null 
+practicum-session-03,practicum-05,¡AAAAAAHHHHH####******-.-.-AAAH!,#GRITOS INC#,2022/08/08 12:00,2022/09/08 13:00,null
+practicum-session-04,practicum-05,现在我用中文大喊大叫,我希望他们不要翻译它,2022/08/08 12:00,2022/10/08 13:00,null
+practicum-session-05,practicum-06,σκοτώστε τον Δία,απλός... σκότωσε τον Δία,2022/09/08 12:00,2022/10/08 13:00,https://www.techtudo.com.br/noticias/2011/09/especial-god-war-historia-de-kratos.ghtml
+practicum-session-06,practicum-10,¿Y si pongo un script?,<script>alert('Parece que no')</script>,2022/09/08 12:00,2022/10/08 13:00,null
+practicum-session-07,practicum-10,A,B,2022/09/08 12:00,2022/11/08 13:00,null
+practicum-session-08,practicum-01,Guten Tag,Der Übersetzer ist gutaussehend,2022/09/08 12:00,2022/10/08 13:00,null
