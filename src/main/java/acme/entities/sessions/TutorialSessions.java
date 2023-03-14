@@ -52,6 +52,7 @@ public class TutorialSessions extends AbstractEntity {
 	protected Date				endPeriod;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
