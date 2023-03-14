@@ -15,7 +15,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.entities.enrolments.Enrolment;
-import acme.entities.nature.Nature;
+import acme.entities.natures.Nature;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,5 +1,5 @@
 
-package acme.entities.tutorial;
+package acme.entities.practicums;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,16 +11,16 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
-import acme.entities.course.Course;
+import acme.entities.courses.Course;
 import acme.framework.data.AbstractEntity;
-import acme.roles.Assistant;
+import acme.roles.Company;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
-public class Tutorial extends AbstractEntity {
+public class Practicum extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
@@ -48,17 +48,18 @@ public class Tutorial extends AbstractEntity {
 	protected boolean			draftMode;
 
 	// Derived attributes -----------------------------------------------------
-	// Integer totalTime: Este atributo se calcula sumando los tiempos de todas las sesiones de que pertenezcan al tutorial. 
-	// Relationships ----------------------------------------------------------
 
+	//To Do: Atributo derivado para calcular el tiempo total
+	//(en horas, computadas a partir de las sesiones correspondientes más/menos 10%)
+
+	// Relationships ----------------------------------------------------------
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Assistant			assistant;
+	protected Company			company;
 
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
 	protected Course			course;
-
 }

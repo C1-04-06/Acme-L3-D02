@@ -14,8 +14,8 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
-import acme.entities.nature.Nature;
-import acme.entities.tutorial.Tutorial;
+import acme.entities.natures.Nature;
+import acme.entities.tutorials.Tutorial;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;

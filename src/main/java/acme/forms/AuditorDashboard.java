@@ -3,7 +3,7 @@ package acme.forms;
 
 import java.util.Map;
 
-import acme.entities.nature.Nature;
+import acme.entities.natures.Nature;
 import acme.framework.data.AbstractForm;
 import lombok.Getter;
 import lombok.Setter;
