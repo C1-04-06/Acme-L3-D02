@@ -43,6 +43,7 @@ public class Bulletin extends AbstractEntity {
 	protected boolean			flag;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
