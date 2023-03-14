@@ -4,3 +4,12 @@ enrolment-02,course-02,student-01,ASR023,"Learn to configure your own private In
 enrolment-03,course-02,student-02,MVG002,"Learn the basics of modelling and visualizing a 3D model","Be able to know and develop fully the properties of a consistent meshing.",false
 enrolment-04,course-02,student-01,IA003,"Develop a functional artificial intelligence with ease","Learn the basics of a neuronal network. Also learn about neurons and train them to make calculations",false
 enrolment-05,course-03,student-02,D017,"Elaborate precise documentation and a complete analysis of requirements","Be able to do a complete analysis of requirements and learn to negotiate them with your client.",true
+enrolment-06,course-01,student-02,A001,Sample motivation,This is a sample message that is able to reach the ninety-nine word count without much difficulty .,false
+enrolment-07,course-02,student-01,AB002,This is a sample message that is able to reach the seventy-four word count,Sample goals,false
+enrolment-08,course-03,student-01,ABC003,<script>alert('Hi')</script>,<script>alert('Hi again!')</script>,true
+enrolment-09,course-03,student-01,ABC004,A,B,false
+enrolment-10,course-01,student-02,BCD004,AB,CD,true
+enrolment-11,course-01,student-02,BC005,function myFunc(TestObject) {TestObject.make = "funcTest";},Sample goals,false
+enrolment-12,course-01,student-01,XZ099,सम्पुट,"0",false
+enrolment-13,course-01,student-01,XZ100,<p>This text is in HTML</p>,<li>This object belongs to a list</li>,true
+enrolment-14,course-03,student-01,XZ115,Для,Для,true
