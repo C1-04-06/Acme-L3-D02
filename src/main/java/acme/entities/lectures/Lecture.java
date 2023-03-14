@@ -1,37 +1,34 @@
 
-package acme.entities.practicum;
+package acme.entities.lectures;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Positive;
 
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
 
-import acme.entities.course.Course;
+import acme.entities.natures.Nature;
 import acme.framework.data.AbstractEntity;
-import acme.roles.Company;
+import acme.roles.Lecturer;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
-public class Practicum extends AbstractEntity {
+public class Lecture extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
-
-	@NotBlank
-	@Pattern(regexp = "^[A-Z]{1,3}\\d{3}$")
-	@Column(unique = true)
-	protected String			code;
 
 	@NotBlank
 	@Length(max = 75)
@@ -41,25 +38,24 @@ public class Practicum extends AbstractEntity {
 	@Length(max = 100)
 	protected String			abstr;
 
-	@NotBlank
-	@Length(max = 100)
-	protected String			goals;
+	@Positive
+	@Digits(integer = 3, fraction = 2)
+	@DecimalMin(value = "0.01", inclusive = true)
+	protected double			time;
 
-	protected boolean			draftMode;
+	@NotNull
+	protected Nature			lectureNature;
+
+	@URL
+	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
 
-	//To Do: Atributo derivado para calcular el tiempo total
-	//(en horas, computadas a partir de las sesiones correspondientes más/menos 10%)
-
 	// Relationships ----------------------------------------------------------
-	@NotNull
-	@Valid
-	@ManyToOne(optional = false)
-	protected Company			company;
 
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Course			course;
+	protected Lecturer			lecturer;
+
 }

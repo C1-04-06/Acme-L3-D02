@@ -1,12 +1,11 @@
 
-package acme.entities.note;
+package acme.entities.banners;
 
 import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
@@ -21,40 +20,42 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Note extends AbstractEntity {
-
+public class Banner extends AbstractEntity {
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
-	@PastOrPresent
-	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				moment;
+	@NotNull
+	@PastOrPresent
+	protected Date				instantationMoment;
+
+	//TODO: constraint restrictions: startPeriod and endPeriod form a period to be fulfilled the following restrictions: start at any moment after instanttationMoment and last one week at least.
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
+	protected Date				startPeriod;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
+	protected Date				endPeriod;
 
 	@NotBlank
 	@Length(max = 75)
-	protected String			title;
+	protected String			slogan;
 
 	@NotBlank
-	@Length(max = 75)
-	protected String			author;
-
-	@NotBlank
-	@Length(max = 100)
-	protected String			message;
-
-	@Email
-	protected String			email;
-
 	@URL
-	protected String			link;
+	protected String			picture;
+
+	@NotBlank
+	@URL
+	protected String			target;
 
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
 
-	//Principal
 }
