@@ -48,10 +48,12 @@ public class Banner extends AbstractEntity {
 
 	@NotBlank
 	@URL
+	@Length(max = 255)
 	protected String			picture;
 
 	@NotBlank
 	@URL
+	@Length(max = 255)
 	protected String			target;
 
 	// Derived attributes -----------------------------------------------------

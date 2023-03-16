@@ -50,6 +50,7 @@ public class Peep extends AbstractEntity {
 	protected String			email;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
