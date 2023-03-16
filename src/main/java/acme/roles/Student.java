@@ -35,6 +35,7 @@ public class Student extends AbstractRole {
 	protected String			weakFeats;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
