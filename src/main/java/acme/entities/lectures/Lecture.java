@@ -47,6 +47,7 @@ public class Lecture extends AbstractEntity {
 	protected Nature			lectureNature;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
