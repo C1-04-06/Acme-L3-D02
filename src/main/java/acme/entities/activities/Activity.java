@@ -53,6 +53,7 @@ public class Activity extends AbstractEntity {
 	protected Date				endPeriod; // Custom restriction: endPeriod must be after startPeriod
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
