@@ -1,15 +1,24 @@
 key,key:Course,key:Student,code,motivation,goals,draft-mode
-enrolment-01,course-01,student-01,DP001,"Learn to use the ACME framework and learn useful top professional practices","Be able to develop in a work environment and gain competences in analysing problems or difficulties.",true
-enrolment-02,course-02,student-01,ASR023,"Learn to configure your own private Intranet","Be able to develop an intranet configuration for your work environment.",false
-enrolment-03,course-02,student-02,MVG002,"Learn the basics of modelling and visualizing a 3D model","Be able to know and develop fully the properties of a consistent meshing.",false
-enrolment-04,course-02,student-01,IA003,"Develop a functional artificial intelligence with ease","Learn the basics of a neuronal network. Also learn about neurons and train them to make calculations",false
-enrolment-05,course-03,student-02,D017,"Elaborate precise documentation and a complete analysis of requirements","Be able to do a complete analysis of requirements and learn to negotiate them with your client.",true
-enrolment-06,course-01,student-02,A001,Sample motivation,This is a sample message that is able to reach the ninety-nine word count without much difficulty .,false
-enrolment-07,course-02,student-01,AB002,This is a sample message that is able to reach the seventy-four word count,Sample goals,false
-enrolment-08,course-03,student-01,ABC003,<script>alert('Hi')</script>,<script>alert('Hi again!')</script>,true
-enrolment-09,course-03,student-01,ABC004,A,B,false
-enrolment-10,course-01,student-02,BCD004,AB,CD,true
-enrolment-11,course-01,student-02,BC005,function myFunc(TestObject) {TestObject.make = "funcTest";},Sample goals,false
-enrolment-12,course-01,student-01,XZ099,सम्पुट,"0",false
-enrolment-13,course-01,student-01,XZ100,<p>This text is in HTML</p>,<li>This object belongs to a list</li>,true
-enrolment-14,course-03,student-01,XZ115,Для,Для,true
+enrolment-01,course-01,student-01,A001,Sample motivation,Sample goals,true
+enrolment-02,course-02,student-01,AB002,Sample motivation,Sample goals,false
+enrolment-03,course-19,student-02,ABC001,Sample motivation,Sample goals,false
+enrolment-04,course-02,student-01,ABC002,A,Sample goals,false
+enrolment-05,course-03,student-02,ABC003,AB,Sample goals,true
+enrolment-06,course-01,student-02,ABC004,This sample message has 37 characters,Sample goals,false
+enrolment-07,course-02,student-01,ABC005,This is a sample message that is able to reach the seventy-four word count,Sample goals,false
+enrolment-08,course-03,student-01,ABC006,This is a sample title that reaches the limit of seventy-five characters!!!,Sample goals,true
+enrolment-09,course-04,student-01,ABC008,<script>alert('Hi')</script>,Sample goals,false
+enrolment-10,course-05,student-02,ABC007,function myFunc(TestObject) {TestObject.make = "funcTest";},Sample goals,false
+enrolment-11,course-06,student-01,ABC009,सम्पुटसम्पुटसम्पुट,Sample goals,false
+enrolment-12,course-07,student-01,ABC010,<p>This text is in HTML</p>,Sample goals,true
+enrolment-13,course-08,student-01,ABC011,Для,Sample goals,true
+enrolment-14,course-09,student-01,ABC012,Sample motivation,A,false
+enrolment-15,course-10,student-02,ABC013,Sample motivation,AB,true
+enrolment-16,course-11,student-02,ABC014,Sample motivation,This is a sample message that has fifty characters,false
+enrolment-17,course-12,student-01,ABC015,Sample motivation,This is a sample message that is able to reach the ninety-nine word count without much difficulty .,false
+enrolment-18,course-13,student-01,ABC016,Sample motivation,Here a sample message that is able to reach the one hundred character count without much difficulty.,true
+enrolment-19,course-14,student-01,ABC017,Sample motivation,<script>alert('Hi')</script>,false
+enrolment-20,course-15,student-02,ABC018,Sample motivation,function myFunc(TestObject) {TestObject.make = "funcTest";},false
+enrolment-21,course-16,student-01,ABC019,Sample motivation,सम्पुटसम्पुटसम्पुट,false
+enrolment-22,course-17,student-01,ABC020,Sample motivation,<p>This text is in HTML</p>,true
+enrolment-23,course-18,student-01,ABC021,Sample motivation,Для,true
