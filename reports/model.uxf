@@ -133,14 +133,14 @@ bg=green
     <coordinates>
       <x>459</x>
       <y>612</y>
-      <w>306</w>
+      <w>324</w>
       <h>153</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Company
 --
 + name: String{NotBlank,Length(max=75)}
-+ vatNumber: String{NotBlank,Length(max=25)}
++ vatNumber: String{NotBlank,Length(max=25), Unique}
 + summary: String {NotBlank, Length(max = 100)}
 + link: String {URL, Length(max=255)}
 bg=blue
@@ -749,7 +749,7 @@ Temporal(TIMESTAMP), PastOrPresent}
 + title: String {NotBlank, Length(max = 75)}
 + nick: String {NotBlank, Length(max = 75)}
 + message: String {NotBlank, Length(max = 100)}
-+ email: String {Email}
++ email: String {Email, Length(max = 255)}
 + link: String {URL, Length(max=255)}
 bg=green
 </panel_attributes>
@@ -897,7 +897,7 @@ Temporal(TIMESTAMP), PastOrPresent}
 + title: String {NotBlank, Length(max = 75)}
 + author: String {NotBlank, Length(max = 75)}
 + message: String {NotBlank, Length(max = 100)}
-+ email: String {Email}
++ email: String {Email, Length(max = 255)}
 + link: String {URL, Length(max=255)}
 bg=green
 </panel_attributes>

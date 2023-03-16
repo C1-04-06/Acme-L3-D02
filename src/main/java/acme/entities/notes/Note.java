@@ -47,6 +47,7 @@ public class Note extends AbstractEntity {
 	protected String			message;
 
 	@Email
+	@Length(max = 255)
 	protected String			email;
 
 	@URL
