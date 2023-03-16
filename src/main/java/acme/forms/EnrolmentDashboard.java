@@ -1,18 +1,28 @@
 
 package acme.forms;
 
+import java.util.Map;
+
+import acme.entities.natures.Nature;
+import acme.framework.data.AbstractForm;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class EnrolmentDashboard extends Statistics {
+public class EnrolmentDashboard extends AbstractForm {
 
 	// Serialisation identifier -----------------------------------------------
 
-	protected static final long serialVersionUID = 1L;
+	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
+
+	Map<Nature, Integer>		numberOfActivitiesPerNature;
+
+	Statistics					activitiesStats;
+
+	Statistics					enrolmentTimeStats;
 
 	// Derived attributes -----------------------------------------------------
 
