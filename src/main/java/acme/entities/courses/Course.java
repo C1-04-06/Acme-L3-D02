@@ -50,6 +50,8 @@ public class Course extends AbstractEntity {
 	@Length(max = 255)
 	protected String			link;
 
+	protected boolean			draftMode;
+
 	// Derived attributes -----------------------------------------------------
 
 	//TODO: Course nature: is a derivated attribute to be calculated with the average of the nature of its own lectures
