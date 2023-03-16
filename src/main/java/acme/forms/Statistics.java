@@ -1,13 +1,13 @@
 
 package acme.forms;
 
-import acme.framework.data.AbstractForm;
+import acme.framework.data.AbstractObject;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Statistics extends AbstractForm {
+public class Statistics extends AbstractObject {
 
 	// Serialisation identifier -----------------------------------------------
 
