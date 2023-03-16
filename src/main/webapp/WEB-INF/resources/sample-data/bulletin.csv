@@ -1,11 +1,26 @@
 key,instantiation-moment,title,message,flag,link
-bulletin-01,2021/08/10 13:00,This bulletin is an example to prove that you can write with 75 characters ,This message is an example to prove that you can write a message using 100 characteres max :DDDDDDDD,true,https://www.google.com/search?q=link&rlz=1C1ONGR_esES974ES974&sxsrf=AJOqlzVSjNYgNTnlwoWxp5dyYUsmfCrZGw:1678532480345&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjN_e_h3NP9AhVxh_0HHWwkA2EQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25
-bulletin-02,2022/07/10 14:00,Not critical message,This is only an example of a not critical message,false,null
-bulletin-03,2002/06/30 12:00,Mensaje critico, Este mensaje es una prueba en español,true,null
-bulletin-04,2005/07/05 20:00,Mensaje no crítico, Este mensaje comprueba tildes español,false,null
-bulletin-05,2010/09/05 21:00,Cuidado un hacker,<script>alert('Pincha aquí?')</script>,true,https://www.youtube.com/
-bulletin-06,2013/10/10 08:00,Yo me llamo Ralph,<p>Mi gato es muy gruñon</p>,false,null
-bulletin-07,2015/12/01 22:00,Je suis franÇais, Je me appelle Yeisi,true,https://es.wikipedia.org/wiki/Francia
-bulletin-08,2016/01/20 13:25,Mario's car, Mamma mia this is my car,true,https://mariokarttour.com/es-ES 
-bulletin-09,2005/03/15 16:35,¡UN FORASTEROO!,Hay un forastero llamado Leon Kenedy en el pueblo,true,https://www.youtube.com/watch?v=l2SCwbZIKhQ&ab_channel=PigsyGames
-bulletin-10,2010/04/15 13:20,Helikopter,Для,false,https://www.youtube.com/watch?v=a0DbzUe-r4Q&ab_channel=Fazlija
+bulletin-01,2021/08/10 13:00,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-02,2021/09/10 13:00,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-03,2021/010/10 15:20,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-04,2021/11/12 13:25,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-05,2021/12/10 23:00,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-06,2021/08/09 13:00,T,Mensaje de ejemplo,false,null
+bulletin-07,2021/08/09 13:00,Ti,Mensaje de ejemplo,false,null
+bulletin-08,2021/08/09 13:00,Título de ejemplo con mitad de caracter,Mensaje de ejemplo,false,null
+bulletin-09,2021/08/09 13:00,This bulletin is an example to prove that you can write with 74 character,Mensaje de ejemplo,false,null
+bulletin-10,2021/08/10 16:40,This bulletin is an example to prove that you can write with 75 characters ,Mensaje de ejemplo,false,null
+bulletin-11,2021/08/09 13:00,παράδειγμα τίτλου,Mensaje de ejemplo,false,null
+bulletin-12,2021/08/09 22:00,<script>alert('T')</script>,Mensaje de ejemplo,false,null
+bulletin-13,2021/08/09 17:00,<p>('T')</p>,Mensaje de ejemplo,false,null
+bulletin-14,2021/08/10 18:50,Título de ejemplo,M,false,null
+bulletin-15,2021/08/10 19:00,Título de ejemplo,Me,false,null
+bulletin-16,2021/08/10 20:00,Título de ejemplo,Mensaje ejemplo con la mitad de caracteres,false,null
+bulletin-17,2021/08/10 21:00,Título de ejemplo,This message is an example to prove that you can write a message using 99 characteres max :DDDDDDDD,false,null
+bulletin-18,2021/08/10 10:00,Título de ejemplo,This message is an example to prove that you can write a message using 100 characteres max :DDDDDDDD,false,null
+bulletin-19,2021/08/10 11:00,Título de ejemplo,παράδειγμα τίτλου,false,null
+bulletin-20,2021/08/10 12:30,Título de ejemplo,<script>alert('M')</script>,false,null
+bulletin-21,2021/08/10 09:00,Título de ejemplo,<p>alert('M')</p>,false,null
+bulletin-22,2021/08/10 08:00,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-23,2021/08/10 08:35,Título de ejemplo,Mensaje de ejemplo,true,null
+bulletin-24,2021/08/10 13:40,Título de ejemplo,Mensaje de ejemplo,false,null
+bulletin-25,2021/08/10 13:50,Título de ejemplo,Mensaje de ejemplo,false,https://www.google.com/search?q=link&rlz=1C1ONGR_esES974ES974&sxsrf=AJOqlzVSjNYgNTnlwoWxp5dyYUsmfCrZGw:1678532480345&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjN_e_h3NP9AhVxh_0HHWwkA2EQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25
