@@ -1,5 +1,5 @@
 
-package acme.entities.banner;
+package acme.entities.bulletins;
 
 import java.util.Date;
 
@@ -8,6 +8,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PastOrPresent;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
@@ -19,34 +20,31 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Banner extends AbstractEntity {
+public class Bulletin extends AbstractEntity {
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
-	//TODO: Custom constraints 
 	@NotNull
+	@PastOrPresent
 	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				startPeriod;
-
-	//TODO: Custom constraints 
-	@NotNull
-	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				endPeriod;
+	protected Date				instantiationMoment;
 
 	@NotBlank
 	@Length(max = 75)
-	protected String			slogan;
+	protected String			title;
 
 	@NotBlank
-	@URL
-	protected String			picture;
+	@Length(max = 100)
+	protected String			message;
 
-	@NotBlank
+	protected boolean			flag;
+
 	@URL
-	protected String			target;
+	@Length(max = 255)
+	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
 

@@ -15,7 +15,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.entities.enrolments.Enrolment;
-import acme.entities.nature.Nature;
+import acme.entities.natures.Nature;
 import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -53,6 +53,7 @@ public class Activity extends AbstractEntity {
 	protected Date				endPeriod; // Custom restriction: endPeriod must be after startPeriod
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------

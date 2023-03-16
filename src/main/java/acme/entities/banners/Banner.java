@@ -1,5 +1,5 @@
 
-package acme.entities.bulletin;
+package acme.entities.banners;
 
 import java.util.Date;
 
@@ -20,31 +20,41 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Bulletin extends AbstractEntity {
+public class Banner extends AbstractEntity {
 	// Serialisation identifier -----------------------------------------------
 
 	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
+	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
 	@PastOrPresent
+	protected Date				instantationMoment;
+
+	//TODO: constraint restrictions: startPeriod and endPeriod form a period to be fulfilled the following restrictions: start at any moment after instanttationMoment and last one week at least.
+
 	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				instantiationMoment;
+	@NotNull
+	protected Date				startPeriod;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
+	protected Date				endPeriod;
 
 	@NotBlank
 	@Length(max = 75)
-	protected String			title;
+	protected String			slogan;
 
 	@NotBlank
-	@Length(max = 100)
-	protected String			message;
-
-	protected boolean			flag;
-
 	@URL
 	@Length(max = 255)
-	protected String			link;
+	protected String			picture;
+
+	@NotBlank
+	@URL
+	@Length(max = 255)
+	protected String			target;
 
 	// Derived attributes -----------------------------------------------------
 

@@ -1,27 +1,28 @@
 
-package acme.entities.note;
-
-import java.util.Date;
+package acme.entities.lectures;
 
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.validation.constraints.Email;
+import javax.persistence.ManyToOne;
+import javax.validation.Valid;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.PastOrPresent;
+import javax.validation.constraints.Positive;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.entities.natures.Nature;
 import acme.framework.data.AbstractEntity;
+import acme.roles.Lecturer;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
-public class Note extends AbstractEntity {
+public class Lecture extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
@@ -29,32 +30,33 @@ public class Note extends AbstractEntity {
 
 	// Attributes -------------------------------------------------------------
 
-	@PastOrPresent
-	@NotNull
-	@Temporal(TemporalType.TIMESTAMP)
-	protected Date				moment;
-
 	@NotBlank
 	@Length(max = 75)
 	protected String			title;
 
 	@NotBlank
-	@Length(max = 75)
-	protected String			author;
-
-	@NotBlank
 	@Length(max = 100)
-	protected String			message;
+	protected String			abstr;
 
-	@Email
-	protected String			email;
+	@Positive
+	@Digits(integer = 3, fraction = 2)
+	@DecimalMin(value = "0.01", inclusive = true)
+	protected double			time;
+
+	@NotNull
+	protected Nature			lectureNature;
 
 	@URL
+	@Length(max = 255)
 	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------
 
-	//Principal
+	@NotNull
+	@Valid
+	@ManyToOne(optional = false)
+	protected Lecturer			lecturer;
+
 }

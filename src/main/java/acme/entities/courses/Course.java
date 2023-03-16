@@ -1,5 +1,5 @@
 
-package acme.entities.tutorial;
+package acme.entities.courses;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,17 +10,18 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
 
-import acme.entities.course.Course;
+import acme.framework.components.datatypes.Money;
 import acme.framework.data.AbstractEntity;
-import acme.roles.Assistant;
+import acme.roles.Lecturer;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
-public class Tutorial extends AbstractEntity {
+public class Course extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
@@ -41,24 +42,23 @@ public class Tutorial extends AbstractEntity {
 	@Length(max = 100)
 	protected String			abstr;
 
-	@NotBlank
-	@Length(max = 100)
-	protected String			goals;
+	//TODO: Custom constraints
+	@NotNull
+	protected Money				price;
 
-	protected boolean			draftMode;
+	@URL
+	@Length(max = 255)
+	protected String			link;
 
 	// Derived attributes -----------------------------------------------------
-	// Integer totalTime: Este atributo se calcula sumando los tiempos de todas las sesiones de que pertenezcan al tutorial. 
+
+	//TODO: Course nature: is a derivated attribute to be calculated with the average of the nature of its own lectures
+
 	// Relationships ----------------------------------------------------------
 
 	@NotNull
 	@Valid
 	@ManyToOne(optional = false)
-	protected Assistant			assistant;
-
-	@NotNull
-	@Valid
-	@ManyToOne(optional = false)
-	protected Course			course;
+	protected Lecturer			lecturer;
 
 }
