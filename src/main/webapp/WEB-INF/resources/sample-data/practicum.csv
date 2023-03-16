@@ -1,11 +1,31 @@
 key,key:company,key:course,code,title,abstr,goals,draft-mode
-practicum-01,company-01,course-01,ABC345,Example title with 75 characters to prove that the validation is functional,In this practicum you can se an example  of  the table practicum an I want to reach 100 caracters :D,The goals about this example is the same of the abstr I need to reach the 100 characters so :DDDDDD,true
+practicum-01,company-01,course-01,A000,Example title,Example abstr,Example goal,true
 practicum-02,company-02,course-01,BB504,Example title,Example abstr,Example goal,false
-practicum-03,company-01,course-02,C302,Ejemplo de título,¿Qué puedo poner aquí?,Meta de ejemplo,false
-practicum-04,company-02,course-01,ZZZ999,你好,<- ahí pone hola tranquilos,#TREMENDO,false
-practicum-05,company-01,course-02,AAA000,OFICINA DE GRITOS,¡¡¡¡NO ESTOY GRITANDOO!!!!,a,true
-practicum-06,company-01,course-02,A009,Ήρθα για σένα πατέρα,Aprende a ser un dios de la guerra,Objetivo ser el dios de la guerra,true
-practicum-07,company-02,course-02,AB450,<script>alert('Aprende a saltar')</script>,Espero que no funcione ese script,No tengo metas,false
-practicum-08,company-02,course-02,CZA687,Sumar,¿Puedes sumar 3+4?,Comprobar que se pueden colocar sumas,false
-practicum-09,company-01,course-01,A000,P,A,M,false
-practicum-10,company-02,course-01,BF345,¿Que pasa si pulso aleatorio el teclado?,bethtnehetnhyettgnh,thendsehyntyyghbt,true
+practicum-03,company-01,course-02,CDF302,Ejemplo de título,Ejemplo de abstr,Meta de ejemplo,false
+practicum-04,company-02,course-01,ZZZ999,Ejemplo de título,Ejemplo de abstr,Meta de ejemplo,false
+practicum-05,company-02,course-01,EEE111,T,Ejemplo de abstr,Meta de ejemplo,false
+practicum-06,company-02,course-01,EEE112,Tí,Ejemplo de abstr,Meta de ejemplo,false
+practicum-07,company-02,course-01,EEE113,Título de ejemplo que comprueba la mitad,Ejemplo de abstr,Meta de ejemplo,false
+practicum-08,company-02,course-01,EEE114,Example title with 74 characters to prove that the validation is functiona,Ejemplo de abstr,Meta de ejemplo,false
+practicum-09,company-02,course-01,EEE115,Example title with 75 characters to prove that the validation is functional,Ejemplo de abstr,Meta de ejemplo,false
+practicum-10,company-02,course-01,EEE116,示例标题,Ejemplo de abstr,Meta de ejemplo,false
+practicum-11,company-02,course-01,EEE117,<script>alert('Aprende a saltar')</script>,Ejemplo de abstr,Meta de ejemplo,false
+practicum-12,company-02,course-01,EEE118,<p>Mi gato es muy gruñon</p>,Ejemplo de abstr,Meta de ejemplo,false
+practicum-13,company-01,course-02,EEE119,Ejemplo de título,A,Meta de ejemplo,true
+practicum-14,company-02,course-02,EEE120,Ejemplo de título,AB,Meta de ejemplo,false
+practicum-15,company-02,course-02,EEE121,Ejemplo de título,Abstract ejemplo de la mitad de carácteres,Meta de ejemplo,false
+practicum-16,company-01,course-01,EEE122,Ejemplo de título,In this practicum you can se an example  of  the table practicum an I want to reach 99 caracters :D,Meta de ejemplo,false
+practicum-17,company-02,course-01,EEE123,Ejemplo de título,In this practicum you can se an example  of  the table practicum an I want to reach 100 caracters :D,Meta de ejemplo,true
+practicum-18,company-02,course-01,EEE124,Ejemplo de título,示例标题,Meta de ejemplo,true
+practicum-19,company-02,course-01,EEE125,Ejemplo de título,<script>alert('Abstr')</script>,Meta de ejemplo,true
+practicum-20,company-02,course-01,EEE126,Ejemplo de título,<p>Abstr</p>,Meta de ejemplo,true
+practicum-21,company-02,course-02,EEE127,Ejemplo de título,Ejemplo de abstract,M,false
+practicum-22,company-02,course-02,EEE128,Ejemplo de título,Ejemplo de abstract,Me,false
+practicum-23,company-02,course-02,EEE129,Ejemplo de título,Ejemplo de abstract,Meta de ejemplo que comprueba la mitad :D,false
+practicum-24,company-02,course-02,EEE130,Ejemplo de título,Ejemplo de abstract,The goals about this example is the same of the abstr I need to reach the 99 characters so :DDDDDD,false
+practicum-25,company-02,course-02,EEE131,Ejemplo de título,Ejemplo de abstract,The goals about this example is the same of the abstr I need to reach the 100 characters so :DDDDDD,false
+practicum-26,company-02,course-02,EEE132,Ejemplo de título,Ejemplo de abstract,示例标题,false
+practicum-27,company-02,course-02,EEE133,Ejemplo de título,Ejemplo de abstract,<script>alert('Meta')</script>,false
+practicum-28,company-02,course-02,EEE134,Ejemplo de título,Ejemplo de abstract,<p>('Meta')</p>,false
+practicum-29,company-02,course-02,EEE135,Ejemplo de título,Ejemplo de abstract,Meta de ejemplo,false
+practicum-30,company-02,course-02,EEE136,Ejemplo de título,Ejemplo de abstract,Meta de ejemplo,true
