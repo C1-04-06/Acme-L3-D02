@@ -22,7 +22,7 @@ public class AuditorDashboard extends AbstractForm {
 
 	Statistics					auditingRecordsStats;
 
-	Statistics					lengthStats;
+	Statistics					auditingRecordsDurationStats;
 
 	// Derived attributes -----------------------------------------------------
 
